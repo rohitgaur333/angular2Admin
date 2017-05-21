@@ -1,0 +1,17 @@
+            <h3> Register User </h3>
+            <form>
+                <label>Name: </label><br />
+                <input type="text" name="fbname" [(ngModel)]="fbname" /><br />
+                <label>content: </label><br />
+                <input type="text" name="content" [(ngModel)]="content" /><br />
+                <label>likes: </label><br />
+                <input type="text" name="likes" [(ngModel)]="likes" /><br />
+                <label>comments: </label><br />
+                <input type="text" name="comments" [(ngModel)]="comments" /><br />
+                
+            </form>
+            <button (click)="getPost()"> Get Post</button>
+            <button (click)="addPost()"> Create Post</button>
+
+       
+            

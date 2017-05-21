@@ -1,0 +1,23 @@
+.form-control{
+    width:70%;
+}
+.selector{
+    width:20%;
+    padding-left: 100px;
+}
+.register-form{
+    border: 1px darkgoldenrod;
+}
+.form-group{
+    border: 1px blue;
+}
+ .col-sm-9{
+    border: 1px red;
+}   
+
+.form-horizontal  {
+    border: 1px ;
+    align-content: center;
+
+    
+}

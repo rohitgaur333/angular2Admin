@@ -1,0 +1,13 @@
+<div > 
+    <p>Student</p>
+    <input /> 
+        <button (click)="getIndex()" >StudentIndex</button>
+        <button (click)="getDetails()" >StudentDetails</button>
+        <button (click)="getDummy()" >StudentDummy</button>
+    </div>
+    <hr />
+    <div>
+        <router-outlet name="student-index"></router-outlet> 
+        <router-outlet name="student-dummy"></router-outlet>
+        <router-outlet name="student-details"></router-outlet>
+    </div> 

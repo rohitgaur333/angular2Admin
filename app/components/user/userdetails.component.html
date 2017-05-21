@@ -1,0 +1,18 @@
+           <h3> User Details</h3>
+            <form>
+                <label>App Id: </label><br />
+                <input type="text" name="app_id" [(ngModel)]="app_id"  [disabled]="editDisabled"/><br />
+                <label>Status: </label><br />
+                <input type="text" name="status" [(ngModel)]="status" [disabled]="editDisabled"/><br />
+                <label>Org ID: </label><br />
+                <input type="text" name="org_id" [(ngModel)]="org_id" [disabled]="editDisabled"/><br />
+                 
+                
+            </form>
+            <br />
+            <button (click)="edituser()" [hidden]="isedited"> Edit User</button>
+            <button (click)="submituser()" [hidden]="!isedited" class="alert-success"> Submit</button>
+            
+
+       
+            

@@ -1,0 +1,24 @@
+<div *ngIf="header_data">
+<header-component [headerData]='header_data' ></header-component>
+</div>
+
+
+<div class="container-fluid">
+      <div class="row text-center" style="padding: 0px">
+        <div class="col-sm-3 col-md-2 sidebar" >
+          <sidebar-component></sidebar-component>
+        </div>
+        <div class="col-sm-6 col-sm-offset-3 col-md-7 col-md-offset-2 main" >
+            <router-outlet></router-outlet>
+        </div>
+        <div class="col-md-2" style="padding: 20px">
+          <div style="border:1px solid blue;">
+             <ul>
+              <li>
+                Right space
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
